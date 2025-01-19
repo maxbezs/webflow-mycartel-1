@@ -1325,6 +1325,7 @@ figure {
   color: var(--black);
   border-radius: 10px;
   margin-top: 13px;
+  margin-left: 12px;
   margin-bottom: 8px;
   padding: 10px 15px;
   font-family: Inter, sans-serif;
@@ -3290,13 +3291,20 @@ figure {
     padding-bottom: 10px;
   }
 
-  .nav-cta {
+  .nav-cta1 {
+    display: none;
     margin-top: 5px;
     margin-right: 0;
     padding-left: 10px;
     padding-right: 10px;
   }
 
+  .nav-cta {
+    margin-top: 5px;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .img-logo {
     width: 150px;
     height: 30px;
